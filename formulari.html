@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <title>Contacta amb nosaltres</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <a href="index.html">
+    <i class="fa-solid fa-arrow-left"></i> 
+    </a>
+
+    <h1>Contacta amb nosaltres</h1>
+    <form>
+        <fieldset>
+            <legend>Dades personals</legend>
+            
+            <label for="nom">Escriu el teu nom: </label>
+            <input type="text" name="nom" size="30" maxlength="100" id="nom">
+            <br>
+            <br>
+            <label for="contrasenya">Escriu la teva contrasenya: </label>
+            <input type="password" name="contrasenya" size="10" maxlength="15" id="contrasenya">
+            <br>
+            <br>
+            Edat:<br>
+            <input type="radio" name="edat" id="edat_menor" value="menor">
+            <label for="edat_menor">Menys de 18 anys</label>
+            <br>
+            <input type="radio" name="edat" id="edat_major" value="major" checked="checked">
+            <label for="edat_major">De 18 a 65 anys</label>
+            <br>
+            <input type="radio" name="edat" id="edat_jubilat" value="jubilat">
+            <label for="edat_jubilat">Més de 65 anys</label>
+            
+
+
+            <label for="municipi">On vius?</label>
+            <select name="municipi" id="municipi">
+                <option value="Barcelona">Barcelona</option>
+                <option value="Sant Boi">Sant Boi</option>
+                <option value="Tarragona">Tarragona</option>
+                <option value="Lleida">Lleida</option>
+                <option value="Girona">Girona</option>
+                <option value="València">València</option>
+                <option value="Andorra">Andorra</option>
+                
+            </select>
+            <br>
+            <br>
+            <label for="foto">Envia'ns la teva foto: </label>
+            <input type="file" name="foto" id="foto">
+            <br>
+            <br>
+            <button type="submit">Entregar formulari</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
